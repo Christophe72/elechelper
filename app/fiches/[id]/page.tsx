@@ -1,7 +1,7 @@
 const fiches = {
   "couleurs-fils": {
     titre: "Couleurs des fils",
-    contenu: "Bleu = neutre, Rouge/Noir = phase, Vert/Jaune = terre",
+    contenu: "Bleu = neutre, Brun/Rouge/Noir = phase, Vert/Jaune = terre",
   },
   "tensions-usuelles": {
     titre: "Tensions usuelles",
