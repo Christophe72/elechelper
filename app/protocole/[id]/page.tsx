@@ -6,6 +6,18 @@ import { notFound } from "next/navigation";
 import SchemaEtapes from "@/components/schemas/SchemaEtapes"; // Adjust the import path as necessary
 import "../../globals.css"; // Import global styles
 
+/**
+ * Le composant ProtocolePage affiche les détails d'un protocole selon l'ID fourni.
+ *
+ * @param params - Une promesse résolvant un objet contenant l'ID du protocole.
+ * @returns L'interface de la page du protocole, incluant le titre, le schéma et les instructions étape par étape.
+ *
+ * @remarques
+ * - Attend l'ID du protocole depuis la promesse params avant d'afficher.
+ * - Affiche un indicateur de chargement pendant l'attente de l'ID.
+ * - Si le protocole n'est pas trouvé, déclenche une réponse notFound.
+ * - Permet à l'utilisateur de sélectionner et mettre en surbrillance les étapes du protocole.
+ */
 export default function ProtocolePage({
   params,
 }: {
