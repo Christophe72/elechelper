@@ -85,7 +85,7 @@ git commit -m "%commit_message%"
 if %errorlevel% neq 0 (
     echo ❌ Erreur lors du commit!
     pause
-    goto menu
+    goto menunpm 
 )
 echo ✅ Commit créé avec succès!
 echo.
