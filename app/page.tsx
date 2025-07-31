@@ -5,24 +5,6 @@ import "./globals.css"; // Import global styles
 export default function HomePage() {
   return (
     <main className="main-container">
-      {/* <h1 className="title-main">ElecHelper - Assistant Électricien</h1>
-
-      <section className="section">
-        <h2 className="title-section">🔍 Recherche de panne</h2>
-        <ul className="list">
-          {pannes.map((panne) => (
-            <li key={panne.symptome} className="list-item">
-              <Link
-                href={`/protocole/${panne.protocoleId}`}
-                className="link-simple"
-              >
-                {panne.symptome}
-              </Link>
-            </li>
-          ))}
-        </ul>
-      </section> */}
-
       <section className="section">
         <h2 className="title-section">✅ Protocoles</h2>
         <ul className="list">
