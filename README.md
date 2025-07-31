@@ -1,207 +1,511 @@
 # ⚡ ElecHelper - Assistant Électricien
 
-[![Next.js](https://img.shields.io/badge/Next.js-15.4.1-black)](https://nextjs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue)](https://www.typescriptlang.org/)
-[![React](https://img.shields.io/badge/React-19.1.0-blue)](https://reactjs.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Repository](https://img.shields.io/badge/Repository-GitHub-green)](https://github.com/Christophe72/elechelper)
+<div align="center">
 
-ElecHelper est une application web moderne conçue pour aider les électriciens dans leur travail quotidien. Elle fournit des protocoles de dépannage interactifs avec schémas visuels, des fiches techniques et des guides de remise en service sécurisée.
+[![Next.js](https://img.shields.io/badge/Next.js-15.4.1-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
+[![React](https://img.shields.io/badge/React-19.1.0-blue?style=for-the-badge&logo=react)](https://reactjs.org/)
+[![License: MIT](https---
 
-## 🆕 Dernières mises à jour
+## 🤝 Contribution & Communauté
 
-### Version 1.1 - Corrections et améliorations
+<div align="center">
 
-- ✅ **Correction des schémas manquants** : Ajout des protocoles "circuit-surcharge" et "court-circuit"
-- ✅ **Correction HTML** : Résolution du problème `<p>` contenant des éléments `<div>`
-- ✅ **Gestionnaire Git** : Script batch pour faciliter les commits et pushs
-- ✅ **Documentation complète** : README enrichi avec toutes les fonctionnalités
-- ✅ **Structure améliorée** : Organisation optimisée des composants
+### 🌟 **Contribuer au projet**
 
-## 🚀 Fonctionnalités
+[![Contribuer](https://img.shields.io/badge/Contribuer-Bienvenu-brightgreen?style=for-the-badge)](https://github.com/Christophe72/elechelper/contribute)
+[![Issues](https://img.shields.io/github/issues/Christophe72/elechelper?style=for-the-badge)](https://github.com/Christophe72/elechelper/issues)
+[![Pull Requests](https://img.shields.io/github/issues-pr/Christophe72/elechelper?style=for-the-badge)](https://github.com/Christophe72/elechelper/pulls)
 
-### 🎨 **Schémas visuels interactifs**
+</div>
 
-- **Visualisation en temps réel** des circuits électriques
-- **Animations synchronisées** avec les étapes de dépannage
-- **Composants électriques** représentés avec des icônes SVG
-- **Connexions colorées** (phase, neutre, terre, commande)
-- **Annotations contextuelles** qui s'affichent au bon moment
+### 🔧 **Comment contribuer**
 
-### 🔍 **Recherche de panne**
+1. **🍴 Fork** le projet
+2. **🌿 Créer une branche** : `git checkout -b feature/nouvelle-fonctionnalite`
+3. **💾 Commit** : `git commit -m 'Ajout nouvelle fonctionnalité'`
+4. **📤 Push** : `git push origin feature/nouvelle-fonctionnalite`
+5. **📝 Pull Request** : Ouvrir une PR avec description détaillée
 
-- Diagnostic rapide par symptômes
-- Protocoles de dépannage détaillés
-- Étapes de remise en service sécurisée
-- Navigation interactive étape par étape
+### 🎯 **Types de contributions recherchées**
 
-### ✅ **Protocoles disponibles**
+- 🔌 **Nouveaux protocoles** électriques
+- 🎨 **Amélioration schémas** et animations
+- 📱 **Optimisations mobile** et accessibilité
+- 🌐 **Traductions** (anglais, espagnol, etc.)
+- 🐛 **Corrections bugs** et améliorations performance
+- 📚 **Documentation** et tutoriels
 
-#### **Circuits de base**
+---
 
-- **Prise ne fonctionne pas** - Diagnostic et réparation avec schéma
-- **Interrupteur défaillant** - Test et remplacement visualisé
-- **Disjoncteur qui saute** - Analyse et correction du circuit
-- **Différentiel qui saute** - Procédure de détection de fuite
+## 📚 Ressources & Formation
 
-#### **Circuits spécialisés**
+### 📖 **Normes électriques**
 
-- **Télérupteur défaillant** - Diagnostic complet avec boutons poussoirs
-- **Contacteur défaillant** - Test bobine et contacts de puissance
-- **Circuit surchargé** - Identification et répartition des charges
-- **Court-circuit** - Procédure d'urgence et réparation sécurisée
+- **🇫🇷 NFC 15-100** : Installation électrique basse tension
+- **⚡ NFC 18-510** : Habilitation électrique
+- **🛡️ UTE C18-550** : Instructions générales de sécurité
 
-#### **Réseaux**
+### 🛠️ **Outils recommandés**
 
-- **Connexion RJ45 Ethernet** - Diagnostic réseau et connectivité
+| Outil                    | Modèle recommandé | Usage                       |
+| ------------------------ | ----------------- | --------------------------- |
+| **Multimètre**           | Fluke 117         | Mesures tension/courant     |
+| **Testeur continuité**   | Kyoritsu 1030     | Vérification circuits       |
+| **Contrôleur isolement** | Megger MFT1552    | Tests d'isolement           |
+| **Pince ampèremétrique** | Fluke 323         | Mesure courant sans coupure |
 
-### 📋 **Fiches pratiques**
+### 🎓 **Formation continue**
 
-- **Couleurs des fils** - Code couleur normalisé
-- **Tensions usuelles** - Valeurs standard (230V, 400V, TBT)
+- **📋 Habilitation électrique** : Recyclage tous les 3 ans
+- **🔧 Formations techniques** : Mise à jour connaissances
+- **📰 Veille réglementaire** : Suivi évolutions normatives
+
+---
+
+## 📄 Licence & Support
+
+### 📜 **Licence MIT**
+
+Ce projet est sous **licence MIT**. Voir le fichier `LICENSE` pour plus de détails.
+
+```
+MIT License - Libre d'utilisation commerciale et personnelle
+✅ Usage commercial autorisé
+✅ Modification et distribution libres
+✅ Usage privé autorisé
+⚠️ Fourni "tel quel" sans garantie
+```
+
+### 📞 **Support & Assistance**
+
+<div align="center">
+
+| Type                   | Contact                                                                      | Réponse   |
+| ---------------------- | ---------------------------------------------------------------------------- | --------- |
+| 🐛 **Bug Report**      | [GitHub Issues](https://github.com/Christophe72/elechelper/issues)           | 24-48h    |
+| 💡 **Feature Request** | [GitHub Discussions](https://github.com/Christophe72/elechelper/discussions) | 1-3 jours |
+| 📧 **Contact direct**  | GitHub @Christophe72                                                         | Variable  |
+
+</div>
+
+---
+
+<div align="center">
+
+## ⚡ **ElecHelper - Votre partenaire électricien de confiance**
+
+_Développé avec ❤️ par des électriciens, pour des électriciens_
+
+[![GitHub stars](https://img.shields.io/github/stars/Christophe72/elechelper?style=social)](https://github.com/Christophe72/elechelper/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/Christophe72/elechelper?style=social)](https://github.com/Christophe72/elechelper/network)
+
+**🌟 N'hésitez pas à laisser une étoile si ce projet vous aide ! 🌟**
+
+---
+
+_⚠️ Toujours respecter les consignes de sécurité électrique_  
+_🛡️ Coupure systématique - Vérification VAT - Port des EPI_
+
+</div>.io/badge/License-MIT-yellow?style=for-the-badge)](https://opensource.org/licenses/MIT)
+
+[![Repository](https://img.shields.io/badge/Repository-GitHub-green?style=for-the-badge&logo=github)](https://github.com/Christophe72/elechelper)
+[![Live Demo](https://img.shields.io/badge/Demo-Live-brightgreen?style=for-the-badge&logo=vercel)](https://elechelper.vercel.app)
+
+**🏆 Application web moderne pour électriciens professionnels**
+
+_Protocoles interactifs • Schémas visuels • Navigation intelligente • Sécurité intégrée_
+
+</div>
+
+---
+
+## ✨ Nouveautés Version 1.2
+
+<table>
+<tr>
+<td width="50%">
+
+### 🧭 **Navigation moderne**
+
+- ✅ **Menu responsive** avec hamburger mobile
+- ✅ **Navigation desktop** avec liens actifs
+- ✅ **Pages dédiées** (Protocoles, Recherche, Fiches)
+- ✅ **Breadcrumb visuel** et transitions fluides
+
+</td>
+<td width="50%">
+
+### 🔄 **Expérience utilisateur**
+
+- ✅ **Spinner de démarrage** professionnel
+- ✅ **Loading entre pages** avec animations
+- ✅ **Interface moderne** avec gradients
+- ✅ **Design cards** interactives
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🚀 Fonctionnalités principales
+
+<details>
+<summary><strong>🎨 Schémas visuels interactifs</strong></summary>
+
+### Visualisation avancée
+
+- 🎯 **Synchronisation temps réel** avec les étapes de dépannage
+- 🎨 **Composants électriques SVG** haute qualité
+- 🌈 **Codage couleur professionnel** (phase rouge, neutre bleu, terre vert)
+- 📝 **Annotations contextuelles** qui apparaissent au bon moment
+- ⚡ **Animations fluides** pour une meilleure compréhension
+
+</details>
+
+<details>
+<summary><strong>🔍 Système de recherche intelligent</strong></summary>
+
+### Diagnostic rapide
+
+- 🎯 **Recherche par symptômes** pour un diagnostic rapide
+- 📋 **Base de données complète** des pannes courantes
+- 🔗 **Liens directs** vers les protocoles correspondants
+- 📱 **Interface mobile-first** pour une utilisation terrain
+
+</details>
+
+<details>
+<summary><strong>✅ Protocoles de dépannage</strong></summary>
+
+### Circuits de base
+
+| Protocole                      | Description                        | Schéma |
+| ------------------------------ | ---------------------------------- | ------ |
+| 🔌 **Prise défaillante**       | Diagnostic complet avec multimètre | ✅     |
+| 🔘 **Interrupteur défaillant** | Test continuité et remplacement    | ✅     |
+| ⚡ **Disjoncteur qui saute**   | Analyse surcharge et court-circuit | ✅     |
+| 🛡️ **Différentiel qui saute**  | Détection fuite à la terre         | ✅     |
+
+### Circuits spécialisés
+
+| Protocole                     | Description                   | Schéma |
+| ----------------------------- | ----------------------------- | ------ |
+| 🔄 **Télérupteur défaillant** | Diagnostic bobine et contacts | ✅     |
+| ⚙️ **Contacteur défaillant**  | Test contacts de puissance    | ✅     |
+| ⚡ **Circuit surchargé**      | Répartition des charges       | ✅     |
+| 🚨 **Court-circuit**          | Procédure d'urgence           | ✅     |
+| 🌐 **Problème RJ45**          | Diagnostic réseau Ethernet    | ✅     |
+
+## </details>
+
+## 🏗️ Architecture moderne
+
+### 📱 **Pages de l'application**
+
+```
+🏠 Accueil          → Navigation rapide et protocoles populaires
+✅ Protocoles       → Liste complète des procédures de dépannage
+🔍 Recherche        → Diagnostic par symptômes avec liens directs
+📋 Fiches          → Références techniques et normes électriques
+```
+
+### 🧩 **Composants techniques**
+
+<table>
+<tr>
+<td><strong>🧭 Navigation</strong></td>
+<td>Menu responsive, liens actifs, breadcrumb</td>
+</tr>
+<tr>
+<td><strong>🔄 AppLayout</strong></td>
+<td>Gestion globale du loading et des transitions</td>
+</tr>
+<tr>
+<td><strong>⚡ Spinner</strong></td>
+<td>Loading professionnel au démarrage et entre pages</td>
+</tr>
+<tr>
+<td><strong>🎨 SchemaEtapes</strong></td>
+<td>Visualisation interactive des circuits électriques</td>
+</tr>
+<tr>
+<td><strong>🔧 IconesTechniques</strong></td>
+<td>Bibliothèque SVG des composants électriques</td>
+</tr>
+</table>
+
+### 📋 **Fiches techniques disponibles**
+
+- 🎨 **Couleurs des fils** - Code couleur normalisé NFC 15-100
+- ⚡ **Tensions usuelles** - 230V, 400V, TBT, BT, HTA
+- �️ **Outils de sécurité** - EPI et équipements de protection
+- 📐 **Symboles électriques** - Schématique normalisée
 
 ### 🔐 **Sécurité intégrée**
 
-- Vérification de l'absence de charge avant réenclenchement
-- Contrôles d'isolement obligatoires
-- Procédures de remise en service progressive
-- Surveillance post-intervention
+- ⚠️ **Coupure systématique** avant toute intervention
+- 🔍 **Vérification VAT** obligatoire
+- 📋 **Contrôles d'isolement** selon normes
+- ⏱️ **Surveillance post-intervention** recommandée
 
-## 🛠️ Technologies
+---
 
-- **Framework**: Next.js 15.4.1
-- **Language**: TypeScript
-- **Styling**: CSS pur (sans framework)
-- **Runtime**: React 19.1.0
-- **Build**: Turbopack (développement)
+## 🛠️ Stack technique
 
-## 📦 Installation
+<div align="center">
 
-### Prérequis
+| Technologie    | Version | Usage                               |
+| -------------- | ------- | ----------------------------------- |
+| **Next.js**    | 15.4.1  | Framework React full-stack          |
+| **React**      | 19.1.0  | Interface utilisateur moderne       |
+| **TypeScript** | 5.0+    | Typage statique et robustesse       |
+| **CSS pur**    | -       | Styling sans dépendances externes   |
+| **Turbopack**  | -       | Build ultra-rapide en développement |
 
-- Node.js 18.0 ou plus récent
-- npm, yarn, pnpm ou bun
+</div>
 
-### Étapes d'installation
+---
 
-1. **Cloner le projet**
+## � Installation & Démarrage
+
+### 📋 Prérequis
+
+- **Node.js** 18.0+
+- **Gestionnaire de paquets** : npm, yarn, pnpm ou bun
+
+### ⚡ Installation rapide
 
 ```bash
-git clone <url-du-repo>
-cd elec-helper
-```
+# 1️⃣ Cloner le repository
+git clone https://github.com/Christophe72/elechelper.git
+cd elechelper
 
-2. **Installer les dépendances**
-
-```bash
+# 2️⃣ Installer les dépendances
 npm install
-# ou
-yarn install
-# ou
-pnpm install
-# ou
-bun install
-```
 
-3. **Lancer le serveur de développement**
+# 3️⃣ Lancer en développement
+npm run dev
+
+# 4️⃣ Ouvrir dans le navigateur
+# → http://localhost:3000
+```
 
 ```bash
-npm run dev
-# ou
-yarn dev
-# ou
-pnpm dev
-# ou
-bun dev
+# 🛠️ Développement
+npm run dev          # Serveur de développement avec Turbopack
+npm run build        # Build de production optimisé
+npm run start        # Serveur de production
+npm run lint         # Vérification du code TypeScript/ESLint
+
+# 🚀 Déploiement
+npm run deploy       # Build + déploiement automatique
 ```
 
-4. **Ouvrir l'application**
+---
 
-Rendez-vous sur [http://localhost:3000](http://localhost:3000)
+## 🛠️ Outils de développement
 
-## 🏗️ Structure du projet
+### 🎯 **Gestionnaire Git intégré**
 
-```text
-elec-helper/
-├── app/                    # Pages et composants Next.js
-│   ├── page.tsx           # Page d'accueil
-│   ├── layout.tsx         # Layout principal
-│   ├── globals.css        # Styles globaux
-│   ├── fiches/            # Fiches techniques
-│   │   └── [id]/
-│   │       └── page.tsx
-│   └── protocole/         # Protocoles de dépannage
-│       └── [id]/
-│           └── page.tsx
-├── components/            # Composants réutilisables
-│   └── schemas/          # Système de schémas visuels
-│       ├── SchemaEtapes.tsx      # Composant principal des schémas
-│       └── IconesTechniques.tsx  # Bibliothèque d'icônes SVG
-├── data/                  # Données JSON
-│   ├── protocoles.json    # Protocoles de dépannage
-│   └── pannes.json        # Symptômes et diagnostics
-├── public/                # Assets statiques
-└── README.md             # Documentation
+Un script `git-manager.bat` est fourni pour simplifier la gestion Git :
+
+```bash
+# Double-cliquer sur git-manager.bat ou exécuter :
+./git-manager.bat
 ```
 
-## 🎨 Système de schémas visuels
+**Fonctionnalités du gestionnaire :**
 
-### Composants électriques disponibles
+- 📤 **Push rapide** : add + commit + push automatique
+- 📊 **Statut Git** : Visualisation des modifications
+- 📋 **Historique** : Consultation des commits
+- 🔄 **Pull GitHub** : Synchronisation repository distant
+- 🌿 **Gestion branches** : Changement et création
 
-- **Prise électrique** - Avec indicateur de tension
-- **Disjoncteur** - États ON/OFF visualisés
-- **Différentiel** - Avec test de fuite
-- **Interrupteur** - Positions ouvert/fermé
-- **Télérupteur** - Avec bobinage et contacts
-- **Contacteur** - Bobine et contacts de puissance
-- **Moteur triphasé** - Avec bornes U, V, W
-- **Bouton poussoir** - États actif/inactif
+### 📁 **Structure du projet**
+
+```
+elechelper/
+├── 📱 app/                     # Pages Next.js avec App Router
+│   ├── 🏠 page.tsx            # Accueil avec navigation rapide
+│   ├── ✅ protocoles/         # Liste des protocoles
+│   ├── 🔍 recherche/          # Recherche par symptômes
+│   ├── 📋 fiches/             # Fiches techniques
+│   └── 🎨 globals.css         # Styles globaux modernes
+├── 🧩 components/             # Composants réutilisables
+│   ├── 🧭 Navigation.tsx      # Menu responsive
+│   ├── ⚡ Spinner.tsx         # Loading animations
+│   ├── 🔄 AppLayout.tsx       # Layout principal
+│   └── 📐 schemas/           # Schémas électriques
+│       ├── SchemaEtapes.tsx   # Visualisation interactive
+│       └── IconesTechniques.tsx # Composants SVG
+├── 📊 data/                   # Base de données JSON
+│   ├── protocoles.json        # Procédures de dépannage
+│   └── pannes.json           # Symptômes et diagnostics
+└── 🛠️ git-manager.bat        # Gestionnaire Git automatisé
+```
+
+---
+
+## 🎨 Design System
+
+### 🌈 **Palette de couleurs**
+
+```css
+/* Couleurs principales */
+--primary: #667eea        /* Bleu électrique */
+--secondary: #764ba2      /* Violet professionnel */
+--success: #28a745        /* Vert validation */
+--warning: #ffc107        /* Jaune attention */
+--danger: #dc3545         /* Rouge danger */
+
+/* Couleurs électriques */
+--phase: #ff6b6b          /* Rouge phase */
+--neutre: #4ecdc4         /* Bleu neutre */
+--terre: #95e1d3          /* Vert terre */
+```
+
+### 📱 **Interface responsive**
+
+- **Mobile First** : Optimisé pour utilisation terrain
+- **Menu hamburger** : Navigation mobile intuitive
+- **Cards interactives** : Effets hover et animations
+- **Loading moderne** : Spinner professionnel au démarrage
+
+### 🎯 **Composants interactifs**
+
+- **Navigation active** : Indication visuelle de la page courante
+- **Schémas animés** : Synchronisation avec les étapes
+- **Transitions fluides** : FadeIn et slide pour une UX premium
+- **Feedback visuel** : États hover, active, disabled
 - **Ampoule** - Avec rayonnement lumineux
 - **Multimètre** - Affichage de mesures
 - **Connecteur RJ45** - Avec câblage réseau
 - **Routeur/Switch** - Avec ports actifs
 - **Ordinateur** - Terminal de test
 
-### Fonctionnalités visuelles
+---
 
-- **Animations synchronisées** avec les étapes de dépannage
-- **Codage couleur** des connexions (phase rouge, neutre bleu, terre vert)
-- **Labels dynamiques** sur les connexions actives
-- **Annotations contextuelles** qui apparaissent selon l'étape
-- **États visuels** des composants (actif/inactif)
-- **Lignes pointillées** pour les connexions inactives
+## 🎯 Guide d'utilisation
 
-## 🎨 Styles et Design
+### 🏠 **Navigation intuitive**
 
-L'application utilise **CSS pur** avec :
+| Page           | Description                            | Accès rapide |
+| -------------- | -------------------------------------- | ------------ |
+| **Accueil**    | Vue d'ensemble + protocoles populaires | `🏠`         |
+| **Protocoles** | Liste complète des procédures          | `✅`         |
+| **Recherche**  | Diagnostic par symptômes               | `🔍`         |
+| **Fiches**     | Références techniques                  | `📋`         |
 
-- **Design responsive** pour mobile et desktop
-- **Palette de couleurs** professionnelle
-- **Animations fluides** et effets hover
-- **Typographie** moderne (Segoe UI)
-- **Cards et ombres** pour la hiérarchie visuelle
+### ⚡ **Schémas interactifs**
 
-## 📚 Utilisation
+1. **📱 Sélection étape** → Clic sur numéro d'étape
+2. **🎨 Animation automatique** → Schéma se met à jour
+3. **🌈 Codage couleur** → Composants changent d'état
+4. **📝 Annotations** → Informations contextuelles apparaissent
 
-### Navigation
+### 🔧 **Ajout de contenu**
 
-- **Page d'accueil** : Vue d'ensemble avec sections organisées
-- **Recherche de panne** : Accès direct par symptôme
-- **Protocoles interactifs** : Procédures avec schémas visuels
-- **Fiches pratiques** : Références rapides
+```bash
+# Nouveaux protocoles
+📁 data/protocoles.json          → Ajouter procédure
 
-### Schémas interactifs
+# Nouveaux schémas
+📁 components/schemas/SchemaEtapes.tsx → Cas de schéma
 
-- **Clic sur les étapes** : Les schémas s'animent selon l'étape sélectionnée
-- **Composants actifs** : Changent de couleur selon leur état
-- **Connexions dynamiques** : Se colorent selon le type de signal
-- **Annotations contextuelles** : Informations qui apparaissent au bon moment
+# Nouvelles icônes
+📁 components/schemas/IconesTechniques.tsx → Composants SVG
 
-### Ajout de contenu
+# Nouveaux symptoms
+📁 data/pannes.json              → Symptômes et diagnostics
+```
 
-1. **Nouveaux protocoles** : Modifier `data/protocoles.json`
-2. **Nouveaux schémas** : Ajouter des cas dans `components/schemas/SchemaEtapes.tsx`
-3. **Nouvelles icônes** : Créer des composants SVG dans `components/schemas/IconesTechniques.tsx`
+---
+
+## 🚀 Déploiement
+
+### 🌐 **Vercel (Recommandé)**
+
+```bash
+# Méthode automatique
+1. Connecter le repo GitHub à Vercel
+2. Déploiement automatique à chaque push sur main
+3. URL personnalisée disponible
+
+# Méthode manuelle
+npm run build
+vercel --prod
+```
+
+### 🐳 **Docker**
+
+```dockerfile
+# Dockerfile inclus pour conteneurisation
+docker build -t elechelper .
+docker run -p 3000:3000 elechelper
+```
+
+### 📦 **Build statique**
+
+```bash
+npm run build        # Génère le dossier .next/
+npm run export       # Export statique (si configuré)
+```
+
+---
+
+## 📋 Changelog détaillé
+
+### 🆕 **Version 1.2** - 31 juillet 2025
+
+#### ✨ **Nouvelles fonctionnalités**
+
+- 🧭 **Navigation moderne** avec menu responsive
+- ⚡ **Spinner de démarrage** professionnel (1.5s)
+- 🔄 **Loading entre pages** avec animations (0.5s)
+- 📱 **Pages dédiées** : Protocoles, Recherche, Fiches
+- 🎨 **Design moderne** avec gradients et cards interactives
+- 📊 **AppLayout** pour gestion globale du loading
+
+#### 🔧 **Améliorations techniques**
+
+- 🏗️ **Architecture composants** réorganisée
+- 📱 **Mobile-first** design optimisé
+- ⚡ **Performances** améliorées avec lazy loading
+- 🎯 **UX/UI** modernisée avec animations fluides
+
+#### 🛠️ **Outils développement**
+
+- 📁 **Structure projet** optimisée
+- 🎨 **Design system** documenté
+- 🔧 **Git manager** amélioré
+- 📚 **Documentation** enrichie
+
+### ✅ **Version 1.1** - Juillet 2025
+
+#### 🐛 **Corrections**
+
+- ✅ **Schémas manquants** : circuit-surcharge, court-circuit
+- ✅ **Erreur HTML** : `<p>` contenant des éléments `<div>`
+- ✅ **Git manager** : URLs et navigation corrigées
+
+#### 📈 **Améliorations**
+
+- ✅ **Documentation** complète du README
+- ✅ **Schémas interactifs** optimisés
+- ✅ **Structure** composants reorganisée
+
+### 🎉 **Version 1.0** - Juillet 2025
+
+#### 🚀 **Version initiale**
+
+- ✅ **Protocoles de base** : Prise, interrupteur, disjoncteur
+- ✅ **Schémas SVG** interactifs
+- ✅ **Interface responsive** mobile/desktop
+- ✅ **Sécurité** intégrée dans chaque protocole
+
 4. **Nouveaux symptômes** : Modifier `data/pannes.json`
 5. **Nouvelles fiches** : Ajouter dans `app/fiches/[id]/page.tsx`
 
