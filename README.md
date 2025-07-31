@@ -1,6 +1,22 @@
 # ⚡ ElecHelper - Assistant Électricien
 
+[![Next.js](https://img.shields.io/badge/Next.js-15.4.1-black)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue)](https://www.typescriptlang.org/)
+[![React](https://img.shields.io/badge/React-19.1.0-blue)](https://reactjs.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Repository](https://img.shields.io/badge/Repository-GitHub-green)](https://github.com/Christophe72/elechelper)
+
 ElecHelper est une application web moderne conçue pour aider les électriciens dans leur travail quotidien. Elle fournit des protocoles de dépannage interactifs avec schémas visuels, des fiches techniques et des guides de remise en service sécurisée.
+
+## 🆕 Dernières mises à jour
+
+### Version 1.1 - Corrections et améliorations
+
+- ✅ **Correction des schémas manquants** : Ajout des protocoles "circuit-surcharge" et "court-circuit"
+- ✅ **Correction HTML** : Résolution du problème `<p>` contenant des éléments `<div>`
+- ✅ **Gestionnaire Git** : Script batch pour faciliter les commits et pushs
+- ✅ **Documentation complète** : README enrichi avec toutes les fonctionnalités
+- ✅ **Structure améliorée** : Organisation optimisée des composants
 
 ## 🚀 Fonctionnalités
 
@@ -233,7 +249,28 @@ npm run start
 npm run lint
 ```
 
-## 🚀 Déploiement
+## �️ Gestionnaire Git
+
+Un script batch `git-manager.bat` est fourni pour simplifier la gestion Git :
+
+### Fonctionnalités du gestionnaire
+
+1. **📤 Push rapide** : add + commit + push automatique
+2. **📊 Statut Git** : Voir les modifications en cours
+3. **📋 Historique** : Consulter les derniers commits
+4. **🔄 Pull GitHub** : Synchroniser depuis le repository distant
+5. **🌿 Changement de branche** : Navigation entre les branches
+
+### Utilisation
+
+```bash
+# Double-cliquer sur le fichier ou exécuter en ligne de commande
+git-manager.bat
+```
+
+Le gestionnaire vous guide à travers un menu interactif pour toutes les opérations Git courantes.
+
+## �🚀 Déploiement
 
 ### Vercel (recommandé)
 
@@ -301,6 +338,37 @@ Cette application respecte les **normes de sécurité** électriques :
 - **Habilitation électrique** : Recyclage tous les 3 ans
 - **Formations techniques** : Mise à jour des connaissances
 - **Veille réglementaire** : Suivi des évolutions normatives
+
+## 📋 Changelog
+
+### Version 1.1 - 31 juillet 2025
+
+#### ✅ Corrections majeures
+
+- **Schémas manquants** : Ajout des protocoles "circuit-surcharge" et "court-circuit"
+- **Erreur HTML** : Résolution du problème `<p>` contenant des éléments block (`<div>`, `<ul>`)
+- **Gestionnaire Git** : Correction des URLs et noms de projet dans `git-manager.bat`
+
+#### 🚀 Améliorations
+
+- **Documentation** : README complet avec toutes les fonctionnalités
+- **Schémas interactifs** : Amélioration des animations et annotations
+- **Interface utilisateur** : Optimisation de l'affichage des fiches
+
+#### 🔧 Technique
+
+- **Structure** : Réorganisation des composants schemas
+- **Performance** : Optimisation du rendu des SVG
+- **Compatibilité** : Correction des problèmes de validation HTML
+
+### Version 1.0 - Juillet 2025
+
+#### 🎉 Version initiale
+
+- **Protocoles de base** : Prise, interrupteur, disjoncteur, différentiel
+- **Schémas visuels** : Composants SVG animés
+- **Interface responsive** : Compatible mobile et desktop
+- **Fiches techniques** : Couleurs des fils et tensions usuelles
 
 ## 🤝 Contribution
 

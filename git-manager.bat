@@ -3,7 +3,7 @@ chcp 65001 >nul
 setlocal EnableDelayedExpansion
 
 echo ==========================================
-echo    🚀 GESTIONNAIRE GIT - CHANTIER RAPPORT
+echo    🚀 GESTIONNAIRE GIT - ELECHELPER
 echo ==========================================
 echo.
 
@@ -19,7 +19,7 @@ if not exist ".git" (
 :menu
 cls
 echo ==========================================
-echo    🚀 GESTIONNAIRE GIT - CHANTIER RAPPORT
+echo    🚀 GESTIONNAIRE GIT - ELECHELPER
 echo ==========================================
 echo.
 echo Choisissez une action:
@@ -85,7 +85,7 @@ git commit -m "%commit_message%"
 if %errorlevel% neq 0 (
     echo ❌ Erreur lors du commit!
     pause
-    goto menunpm 
+    goto menu 
 )
 echo ✅ Commit créé avec succès!
 echo.
@@ -101,7 +101,7 @@ if %errorlevel% equ 0 (
     echo    SUCCÈS! 🎉
     echo ================================
     echo 📤 Code poussé vers GitHub
-    echo 🌐 https://github.com/Christophe72/elec-helper
+    echo 🌐 https://github.com/Christophe72/elechelper
     echo 🌿 Branche: %current_branch%
     echo 💬 Message: %commit_message%
     echo.
@@ -195,9 +195,9 @@ echo    👋 AU REVOIR!
 echo ==========================================
 echo.
 echo Merci d'avoir utilisé le gestionnaire Git!
-echo Votre application de gestion de chantiers est à jour.
+echo Votre application ElecHelper est à jour.
 echo.
-echo 🌐 Repository: https://github.com/Christophe72/chantier-rapport
+echo 🌐 Repository: https://github.com/Christophe72/elechelper
 echo.
 pause
 exit /b 0
